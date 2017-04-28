@@ -1,0 +1,116 @@
+ body {
+    font-size: 12px;
+    background: #333;
+    font-family: 'Revalia', cursive, arial;
+}
+
+div#pictures{
+    padding:10px;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+div#from {
+    margin: 20px 0px;
+}
+
+div#from a {
+    color: #FFF;
+    font-size: 12px;
+    background: #1557C3;
+    margin: 20px 0;
+    border-radius: 5px;
+    padding: 10px;
+    line-height: 25px;
+}
+
+h1 a {
+    background: #333;
+    border-radius: 5px;
+    padding: 5px;
+    float: right;
+    cusor: hand;
+    color: #FFF;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+#main {
+    width: 840px;
+    margin: 10px auto;
+    background: #FFF;
+    color: #333;
+    border: 2px solid #FFF;
+    box-shadow: 0px 0px 10px #CCC;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#main article {
+    margin-bottom: 50px;
+    background: #F8F8F8;
+    border-radius: 5px;
+    border: 1px solid #bbb;
+}
+
+#webcam {
+	margin:10px auto;
+    height: 400px;
+    width: 840px;
+    margin: 10px auto;
+    z-index: 999;
+}
+
+#main #plist {
+    font-weight: bold;
+    background: #CCC;
+    padding: 10px;
+}
+
+#main img {
+	// display:block;
+    background: #F8F8F8;
+    box-shadow: 0px 0px 5px #888;
+}
+
+.clear {
+    clear: both;
+}
+
+#webcam ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#webcam .photobooth {
+    border-radius: 5px;
+}
+
+.photo-box{
+	position:relative;
+	margin-top:10px;
+	border:1px solid #ccc;
+}
+.photo-box img{
+	display: block;
+	max-width:100%;
+}
+.photo-box .close{
+	position: absolute;
+	width:22px;
+	height:20px;
+	text-align: center;
+	line-height: 20px;
+	top:0;
+	right: 0;
+	border-radius:50%;
+	cursor:pointer;
+	transition: all .2s ease-in-out;
+	color:red;
+}
+.photo-box .close:hover{
+	transform: scale(1.2);
+}
